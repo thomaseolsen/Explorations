@@ -67,10 +67,20 @@ Hello World
     # Hello, Thomas!
 
 ## Fortran
-Nothing yet written in Fortran
+Hello World
+
+    ./helloFortran
+    # Hello World!
+    ./helloFortran Thomas
+    # Hello, Thomas!
 
 ## Go
-Nothing yet written in Fortran
+Hello World
+
+    ./helloGo
+    # Hello World!
+    ./helloGo Thomas
+    # Hello, Thomas!
 
 ## Java
 Nothing yet written in Java
