@@ -36,13 +36,11 @@ I am currently using two compilers in the makefile. They are as follows:
 Nothing yet written in Ada
 
 ## C++
-Hello World:
----
-helloCPP
-\# Hello World!
-helloCPP Thomas
-\# Hello, Thomas!
----
+Hello World
+    helloCPP
+    \# Hello World!
+    helloCPP Thomas
+    \# Hello, Thomas!
 
 ## C#
 Nothing yet written in C#
@@ -51,13 +49,11 @@ Nothing yet written in C#
 Nothing yet written in COBOL
 
 ## D
-Hello World:
----
-helloD
-\# Hello World!
-helloD Thomas
-\# Hello, Thomas!
----
+Hello World
+    helloD
+    \# Hello World!
+    helloD Thomas
+    \# Hello, Thomas!
 
 ## Fortran
 Nothing yet written in Fortran
