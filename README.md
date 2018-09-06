@@ -25,22 +25,31 @@ I am currently using two compilers in the makefile. They are as follows:
 
 - GCC
   - Ada
+    - Requires gcc-ada package
   - C++
   - Fortran
+    - Requires gcc-fortran package
   - Go
+    - Requires gcc-go package
   - Objective-C
+    - Requires gcc-objc package
 - GDC
   - D
 
 ## Ada
-Nothing yet written in Ada
+Hello World
+
+    ./helloada
+    # Hello World!
+    ./helloada Thomas
+    # Hello, Thomas!
 
 ## C++
 Hello World
 
-    helloCPP
+    ./helloCPP
     # Hello World!
-    helloCPP Thomas
+    ./helloCPP Thomas
     # Hello, Thomas!
 
 ## C#
@@ -52,9 +61,9 @@ Nothing yet written in COBOL
 ## D
 Hello World
 
-    helloD
+    ./helloD
     # Hello World!
-    helloD Thomas
+    ./helloD Thomas
     # Hello, Thomas!
 
 ## Fortran
