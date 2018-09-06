@@ -37,10 +37,11 @@ Nothing yet written in Ada
 
 ## C++
 Hello World
+
     helloCPP
-    \# Hello World!
+    # Hello World!
     helloCPP Thomas
-    \# Hello, Thomas!
+    # Hello, Thomas!
 
 ## C#
 Nothing yet written in C#
@@ -50,10 +51,11 @@ Nothing yet written in COBOL
 
 ## D
 Hello World
+
     helloD
-    \# Hello World!
+    # Hello World!
     helloD Thomas
-    \# Hello, Thomas!
+    # Hello, Thomas!
 
 ## Fortran
 Nothing yet written in Fortran
