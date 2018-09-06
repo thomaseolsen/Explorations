@@ -1,7 +1,7 @@
 # Explorations
 A journey through different languages, exploring other ways of doing the same thing.
 
-I plan to start with the basics, the ubiquitous "Hello World" in the selection of languages I'm interested in exploring. From there I'll add some basic constructs from my undergrad days and move forward from there.
+I plan to start with the basics, the ubiquitous "Hello World" in the selection of languages I'm interested in exploring. From there I'll add some basic constructs from my undergrad days and move forward.
 
 As a note to myself, I plan on exploring the following languages:
 * Ada
