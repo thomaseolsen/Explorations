@@ -82,7 +82,7 @@ $(ODIR)/%.o: %.m $(HELLOOBJC_DEPS)
 	$(CC) -c -o $@ $< $(OCFLAGS)
 
 # Make commands
-all: helloAda helloCPP helloD helloFortran helloGo
+all: helloAda helloCPP helloD helloFortran helloGo helloObjC
 
 helloAda: $(HELLOADA_OBJ)
 	gnatbind -x obj/helloada.ali
@@ -114,3 +114,4 @@ clean:
 	rm -f helloD
 	rm -f helloFortran
 	rm -f helloGo
+	rm -f helloObjC

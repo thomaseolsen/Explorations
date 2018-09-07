@@ -89,7 +89,14 @@ Nothing yet written in Java
 Nothing yet written in Javascript
 
 ## Objective-C
-Nothing yet written in Objective-C
+Hello World
+
+    ./helloObjC
+    # 2018-09-06 22:55:22.397 helloObjC[3693:3693] Hello World!
+    ./helloObjC Thomas
+    # 2018-09-06 22:55:16.608 helloObjC[3692:3692] Hello, Thomas!
+    ./helloObjC Thomas Classic
+    # Hello, Thomas!
 
 ## Pascal
 Nothing yet written in Pascal
