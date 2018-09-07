@@ -13,7 +13,7 @@ As a note to myself, I plan on exploring the following languages:
 * [Go](README.md#go)
 * [Java](README.md#java)
 * [Javascript](README.md#javascript)
-* [Objective-C](README.md#objective-C)
+* [Objective-C](README.md#objective-c)
 * [Pascal](README.md#pascal)
 * [Python](README.md#python)
 * [Ruby](README.md#ruby)
