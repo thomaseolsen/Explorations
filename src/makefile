@@ -6,6 +6,12 @@ CC=g++
 CFLAGS=-g
 OCFLAGS=-g -lobjc -lgnustep-base -fconstant-string-class=NSConstantString
 
+CO=cobc
+COFLAGS=-x
+
+CS=mcs
+CSFLAGS=-debug
+
 DC=gdc
 DFLAGS=-g
 
@@ -14,6 +20,11 @@ FFLAGS=-g
 
 GC=gccgo
 GFLAGS=-g
+
+JC=javac
+
+PA=fpc
+PAFLAGS=-g
 
 # Ada Dependencies and Objects
 _HELLOADA_DEPS = 
@@ -82,7 +93,7 @@ $(ODIR)/%.o: %.m $(HELLOOBJC_DEPS)
 	$(CC) -c -o $@ $< $(OCFLAGS)
 
 # Make commands
-all: helloAda helloCPP helloD helloFortran helloGo helloObjC
+all: helloAda helloCPP helloCOBOL helloCS helloD helloFortran helloGo helloJava helloObjC helloPascal
 
 helloAda: $(HELLOADA_OBJ)
 	gnatbind -x obj/helloada.ali
@@ -90,6 +101,12 @@ helloAda: $(HELLOADA_OBJ)
 
 helloCPP: $(HELLOCPP_OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
+
+helloCOBOL:
+	$(CO) $(COFLAGS) helloCOBOL.cbl
+
+helloCS:
+	$(CS) $(CSFLAGS) helloCS.cs
 
 helloD: $(HELLOD_OBJ)
 	$(DC) -o $@ $^ $(DFLAGS)
@@ -100,8 +117,14 @@ helloFortran: $(HELLOFOR_OBJ)
 helloGo: $(HELLOGO_OBJ)
 	$(GC) -o $@ $^ $(GFLAGS)
 
+helloJava:
+	$(JC) helloJava.java
+
 helloObjC: $(HELLOOBJC_OBJ)
 	$(CC) -o $@ $^ $(OCFLAGS)
+
+helloPascal:
+	$(PA) $(PAFLAGS) helloPascal.pas
 
 .PHONY: clean all
 
@@ -109,9 +132,14 @@ clean:
 	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~ 
 	rm -f $(ODIR)/*.ali
 	rm -f b~*
+	rm -f *.o
+	rm -f *.class
 	rm -f helloada
 	rm -f helloCPP
+	rm -f helloCOBOL
+	rm -f helloCS.ex*
 	rm -f helloD
 	rm -f helloFortran
 	rm -f helloGo
 	rm -f helloObjC
+	rm -f helloPascal

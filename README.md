@@ -53,10 +53,18 @@ Hello World
     # Hello, Thomas!
 
 ## C#
-Nothing yet written in C#
+Hello World
+
+    mono helloWorld.exe
+    # Hello World!
+    mono helloWorld.exe Thomas
+    # Hello, Thomas!
 
 ## COBOL
-Nothing yet written in COBOL
+Hello World
+
+    ./helloCOBOL
+    # Hello World!
 
 ## D
 Hello World
@@ -83,10 +91,12 @@ Hello World
     # Hello, Thomas!
 
 ## Java
-Nothing yet written in Java
+Hello World
 
-## Javascript
-Nothing yet written in Javascript
+    java helloJava
+    # Hello World!
+    java helloJava Thomas
+    # Hello, Thomas!
 
 ## Objective-C
 Hello World
@@ -99,10 +109,25 @@ Hello World
     # Hello, Thomas!
 
 ## Pascal
-Nothing yet written in Pascal
+Hello World
+
+    ./helloPascal
+    # Hello World!
+    ./helloPascal Thomas
+    # Hello, Thomas!
 
 ## Python
-Nothing yet written in Python
+Hello World
+
+    python helloPython.py
+    # Hello World!
+    python helloPython.py Thomas
+    # Hello, Thomas!
 
 ## Ruby
-Nothing yet written in Ruby
+Hello World
+
+    ruby helloRuby.rb
+    # Hello World!
+    ruby helloRuby.rb
+    # Hello, Thomas!
