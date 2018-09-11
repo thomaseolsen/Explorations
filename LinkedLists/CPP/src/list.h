@@ -1,6 +1,7 @@
 #ifndef TEO_LIST_H
 #define TEO_LIST_H
 #include <iostream>
+#include <string>
 
 template<typename T>
 struct Node {
@@ -10,7 +11,7 @@ struct Node {
         Node<T>* prev;
 };
 
-template<class T>
+template<typename T>
 class List {
     private:
         int length;

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thomas/GitHub/Explorations/LinkedLists/CPP/src/list.h
+iostream
+-
+string
+-
+
+/home/thomas/GitHub/Explorations/LinkedLists/CPP/src/main.cpp
+iostream
+-
+string
+-
+list.h
+/home/thomas/GitHub/Explorations/LinkedLists/CPP/src/list.h
+
