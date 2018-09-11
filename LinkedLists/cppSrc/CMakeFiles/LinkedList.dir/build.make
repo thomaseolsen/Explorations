@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/GitHub/Explorations/LinkedLists/CPP/src
+CMAKE_SOURCE_DIR = /home/thomas/GitHub/Explorations/LinkedLists/cppSrc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/GitHub/Explorations/LinkedLists/CPP/src
+CMAKE_BINARY_DIR = /home/thomas/GitHub/Explorations/LinkedLists/cppSrc
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LinkedList.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/LinkedList.dir/flags.make
 
 CMakeFiles/LinkedList.dir/main.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/GitHub/Explorations/LinkedLists/CPP/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/main.cpp.o -c /home/thomas/GitHub/Explorations/LinkedLists/CPP/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/GitHub/Explorations/LinkedLists/cppSrc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/main.cpp.o -c /home/thomas/GitHub/Explorations/LinkedLists/cppSrc/main.cpp
 
 CMakeFiles/LinkedList.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/GitHub/Explorations/LinkedLists/CPP/src/main.cpp > CMakeFiles/LinkedList.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/GitHub/Explorations/LinkedLists/cppSrc/main.cpp > CMakeFiles/LinkedList.dir/main.cpp.i
 
 CMakeFiles/LinkedList.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/GitHub/Explorations/LinkedLists/CPP/src/main.cpp -o CMakeFiles/LinkedList.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/GitHub/Explorations/LinkedLists/cppSrc/main.cpp -o CMakeFiles/LinkedList.dir/main.cpp.s
 
 CMakeFiles/LinkedList.dir/list-impl.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/list-impl.cpp.o: list-impl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/GitHub/Explorations/LinkedLists/CPP/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/list-impl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/list-impl.cpp.o -c /home/thomas/GitHub/Explorations/LinkedLists/CPP/src/list-impl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/GitHub/Explorations/LinkedLists/cppSrc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/list-impl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/list-impl.cpp.o -c /home/thomas/GitHub/Explorations/LinkedLists/cppSrc/list-impl.cpp
 
 CMakeFiles/LinkedList.dir/list-impl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/list-impl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/GitHub/Explorations/LinkedLists/CPP/src/list-impl.cpp > CMakeFiles/LinkedList.dir/list-impl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/GitHub/Explorations/LinkedLists/cppSrc/list-impl.cpp > CMakeFiles/LinkedList.dir/list-impl.cpp.i
 
 CMakeFiles/LinkedList.dir/list-impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/list-impl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/GitHub/Explorations/LinkedLists/CPP/src/list-impl.cpp -o CMakeFiles/LinkedList.dir/list-impl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/GitHub/Explorations/LinkedLists/cppSrc/list-impl.cpp -o CMakeFiles/LinkedList.dir/list-impl.cpp.s
 
 # Object files for target LinkedList
 LinkedList_OBJECTS = \
@@ -95,7 +95,7 @@ LinkedList: CMakeFiles/LinkedList.dir/main.cpp.o
 LinkedList: CMakeFiles/LinkedList.dir/list-impl.cpp.o
 LinkedList: CMakeFiles/LinkedList.dir/build.make
 LinkedList: CMakeFiles/LinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/GitHub/Explorations/LinkedLists/CPP/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/GitHub/Explorations/LinkedLists/cppSrc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LinkedList"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinkedList.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/LinkedList.dir/clean:
 .PHONY : CMakeFiles/LinkedList.dir/clean
 
 CMakeFiles/LinkedList.dir/depend:
-	cd /home/thomas/GitHub/Explorations/LinkedLists/CPP/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/GitHub/Explorations/LinkedLists/CPP/src /home/thomas/GitHub/Explorations/LinkedLists/CPP/src /home/thomas/GitHub/Explorations/LinkedLists/CPP/src /home/thomas/GitHub/Explorations/LinkedLists/CPP/src /home/thomas/GitHub/Explorations/LinkedLists/CPP/src/CMakeFiles/LinkedList.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/GitHub/Explorations/LinkedLists/cppSrc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/GitHub/Explorations/LinkedLists/cppSrc /home/thomas/GitHub/Explorations/LinkedLists/cppSrc /home/thomas/GitHub/Explorations/LinkedLists/cppSrc /home/thomas/GitHub/Explorations/LinkedLists/cppSrc /home/thomas/GitHub/Explorations/LinkedLists/cppSrc/CMakeFiles/LinkedList.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LinkedList.dir/depend
 

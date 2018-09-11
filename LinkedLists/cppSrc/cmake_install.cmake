@@ -1,4 +1,4 @@
-# Install script for directory: /home/thomas/GitHub/Explorations/LinkedLists/CPP/src
+# Install script for directory: /home/thomas/GitHub/Explorations/LinkedLists/cppSrc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thomas/GitHub/Explorations/LinkedLists/CPP/src/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thomas/GitHub/Explorations/LinkedLists/cppSrc/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
