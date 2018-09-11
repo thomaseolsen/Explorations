@@ -30,6 +30,10 @@ void intList() {
         std::cout << "Current Node Value: " << linkedList->Data() << std::endl;
         linkedList->StepPrev();
     }
+
+    free(a);
+    free(b);
+    free(c);
 }
 
 void stringList() {
@@ -60,6 +64,10 @@ void stringList() {
         std::cout << "Current Node Value: " << linkedList->Data() << std::endl;
         linkedList->StepPrev();
     }
+
+    free(a);
+    free(b);
+    free(c);
 }
 
 int main(int argc, char *argv[]) {
