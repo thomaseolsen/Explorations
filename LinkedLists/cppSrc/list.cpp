@@ -39,7 +39,7 @@ void List<T>::InsertAfter(Node<T>* ptr) {
         ptr->next = this->curr->next;
         this->curr->next = ptr;
 
-        // Set the new links moving backward (next -> ptr -> curr)
+        // Set the new links moving backward (curr <- ptr <- next)
         if (ptr->next != NULL) // ptr != tail
             ptr->next->prev = ptr;
         else
@@ -60,11 +60,11 @@ void List<T>::InsertBefore(Node<T>* ptr) {
         this->curr = ptr;
     }
     else {
-        // Set the new links moving forward (prev -> ptr -> curr)
+        // Set the new links moving backward (prev <- ptr <- curr)
         ptr->prev = this->curr->prev;
         this->curr->prev = ptr;
 
-        // Set the new links moving backward (curr -> ptr -> prev)
+        // Set the new links moving forward (prev -> ptr -> curr)
         if (ptr->prev != NULL) // ptr != head
             ptr->prev->next = ptr;
         else
@@ -91,7 +91,7 @@ Node<T>* List<T>::DeleteAfter() {
     // Remove the link to tmpNode moving forward
     this->curr->next = tmpNode->next;
     // Remove the link to tmpNode moving backward
-    if (tmpNode->next != NULL) // tmpNode = tail
+    if (tmpNode->next != NULL) // tmpNode != tail
         tmpNode->next->prev = this->curr;
     
     return tmpNode;
@@ -103,6 +103,7 @@ template<typename T>
 Node<T>* List<T>::DeleteBefore() {
     // Get the node we are about to delete.
     Node<T>* tmpNode = this->curr->prev;
+    
     if (this->length > 0) // Don't deprecate if in an empty list.
         this->length--;
 
@@ -112,7 +113,7 @@ Node<T>* List<T>::DeleteBefore() {
     // Remove the link to tmpNode moving backward
     this->curr->prev = tmpNode->prev;
     // Remove the link to tmpNode moving forward
-    if (tmpNode->prev != NULL) // tmpNode = head
+    if (tmpNode->prev != NULL) // tmpNode != head
         tmpNode->prev->next = this->curr;
     
     return tmpNode;
