@@ -42,7 +42,7 @@ class List(T) {
                 node.next = curr.next;
                 curr.next = node;
 
-                // Set the new links movign backward (curr <- node <- next)
+                // Set the new links moving backward (curr <- node <- next)
                 if (node.next !is null) // node !is tail
                     node.next.prev = node;
                 else
@@ -66,7 +66,7 @@ class List(T) {
                 node.prev = curr.prev;
                 curr.prev = node;
 
-                // Set the new links movign forward (prev -> node -> curr)
+                // Set the new links moving forward (prev -> node -> curr)
                 if (node.prev !is null) // node !is head
                     node.prev.next = node;
                 else
@@ -78,7 +78,7 @@ class List(T) {
         }
 
         /*  This method deletes the next node from the list and returns the deleted node.
-            If the next node is NULL (aka: curr = tail) do nothing and return NULL.  */
+            If the next node is null (aka: curr = tail) do nothing and return null.  */
         Node!(T) DeleteAfter() {
             // Get the node we are about to delete.
             auto tmpNode = curr.next;
@@ -86,7 +86,7 @@ class List(T) {
             if (length > 0) // Don't deprecate if in an empty list
                 length--;
 
-            // Per our spec, if tmpNode is NULL, we are at the tail and will return NULL.
+            // Per our spec, if tmpNode is null, we are at the tail and will return null.
             if (tmpNode is null) return null;
 
             // Remove the link to tmpNode moving forward
@@ -99,7 +99,7 @@ class List(T) {
         }
 
         /*  This method deletes the prev node from the list and returns the deleted node.
-            If the prev node is NULL (aka: curr = head) do nothing and return NULL.  */
+            If the prev node is null (aka: curr = head) do nothing and return null.  */
         Node!(T) DeleteBefore() {
             // Get the node we are about to delete.
             auto tmpNode = curr.next;
@@ -107,7 +107,7 @@ class List(T) {
             if (length > 0) // Don't deprecate if in an empty list
                 length--;
 
-            // Per our spec, if tmpNode is NULL, we are at the head and will return NULL.
+            // Per our spec, if tmpNode is null, we are at the head and will return null.
             if (tmpNode is null) return null;
 
             // Remove the link to tmpNode moving backward
@@ -125,7 +125,7 @@ class List(T) {
             if (curr.next !is null) curr = curr.next;
         }
 
-        /*  This method moves forward in the list.
+        /*  This method moves backward in the list.
             If the prev node is NULL, we are at the head and don't move backward.  */
         void StepPrev() {
             if (curr.prev !is null) curr = curr.prev;
