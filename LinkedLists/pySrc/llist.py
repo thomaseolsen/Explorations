@@ -1,8 +1,8 @@
 class Node:
     def __init__(self, dVal, nVal = None, pVal = None):
-        data = dVal
-        next = nVal
-        prev = pVal
+        self.data = dVal
+        self.next = nVal
+        self.prev = pVal
 
 class LList:
     def __init__(self):
