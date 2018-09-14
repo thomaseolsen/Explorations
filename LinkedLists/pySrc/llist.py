@@ -134,9 +134,3 @@ class LList:
     # This method returns true if self.curr = self.tail and false otherwise.
     def IsTail(self):
         return False if self.curr.next is not None else True
-
-    def test(self, value = False):
-        if value == False:
-            print(0)
-        else:
-            print(value)
