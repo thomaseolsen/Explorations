@@ -22,3 +22,6 @@ Sure, I know what you're thinking. That list is too long to be realistic. I'm ho
 The projects I've embarked upon are:
 * Hello World
 * Doubly Linked Lists
+
+The projects I plan to visit coming up are:
+* Dining Philosophers
