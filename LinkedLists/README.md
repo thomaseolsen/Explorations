@@ -11,7 +11,7 @@ For comparison, I also tested std::list available in the C++ Standard Library. T
 I'd like to note here that wile working with the template class, I came across some interesting linker issues. As such, there is an additional layer "list-impl.cpp" that explicitly informs the compiler what types to create classes for from our template. It should resolve any issues using any of the types (my demo code only tests int and std::string). This was rather annoying, but there is a great explanation of the issue at hand [here](https://isocpp.org/wiki/faq/templates#templates-defn-vs-decl).
 
 ### C#
-
+Working out the kinks in my implementation now.
 
 ### COBOL
 
