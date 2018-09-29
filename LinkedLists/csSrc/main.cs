@@ -21,14 +21,14 @@ namespace Main {
             linkedList.StepHead();
             System.Console.WriteLine("Trafersing forward...");
             for (int i = 0; i < linkedList.Length(); i++) {
-                System.Console.WriteLine("Current Node Value: ", linkedList.Data());
+                System.Console.WriteLine("Current Node Value: " + linkedList.Data());
                 linkedList.StepNext();
             }
 
             linkedList.StepTail();
             System.Console.WriteLine("Trafersing backward...");
             for (int i = 0; i < linkedList.Length(); i++) {
-                System.Console.WriteLine("Current Node Value: ", linkedList.Data());
+                System.Console.WriteLine("Current Node Value: " + linkedList.Data());
                 linkedList.StepPrev();
             }
         }
@@ -47,14 +47,14 @@ namespace Main {
             linkedList.StepHead();
             System.Console.WriteLine("Trafersing forward...");
             for (int i = 0; i < linkedList.Length(); i++) {
-                System.Console.WriteLine("Current Node Value: ", linkedList.Data());
+                System.Console.WriteLine("Current Node Value: " + linkedList.Data());
                 linkedList.StepNext();
             }
 
             linkedList.StepTail();
             System.Console.WriteLine("Trafersing backward...");
             for (int i = 0; i < linkedList.Length(); i++) {
-                System.Console.WriteLine("Current Node Value: ", linkedList.Data());
+                System.Console.WriteLine("Current Node Value: " + linkedList.Data());
                 linkedList.StepPrev();
             }
         }

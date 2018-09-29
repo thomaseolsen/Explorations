@@ -6,7 +6,7 @@ CS=mcs
 CSFLAGS=-debug
 
 helloCS:
-	$(CS) $(CSFLAGS) main.cs list.cs -o llist.exe
+	$(CS) $(CSFLAGS) main.cs list.cs -out:llist.exe
 
 .PHONY: clean
 
