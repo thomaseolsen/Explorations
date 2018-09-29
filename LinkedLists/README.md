@@ -11,7 +11,11 @@ For comparison, I also tested std::list available in the C++ Standard Library. T
 I'd like to note here that wile working with the template class, I came across some interesting linker issues. As such, there is an additional layer "list-impl.cpp" that explicitly informs the compiler what types to create classes for from our template. It should resolve any issues using any of the types (my demo code only tests int and std::string). This was rather annoying, but there is a great explanation of the issue at hand [here](https://isocpp.org/wiki/faq/templates#templates-defn-vs-decl).
 
 ### C#
-Working out the kinks in my implementation now. Seems almost as similar to D as to Java. Will move to Jave next.
+After my stint in Python, I needed to come back to something more familiar. I consider C# to be my "home" language, it's what I prefer to code in the majority of the time (though D was a lot of fun, I must admit). Where Python was very freeing and I could do whatever I wanted, C# brought me back to a less anarchist approach to programming. Most things are private unless specifically made public, curly braces rule the world, and semi-colons keep everything in line. Okay, so maybe I'm being a bit facetious about Python, but I think I got my point across.
+
+Since I've spent so much time in C#, I didn't rely on any books or websites to help me along here, it's purely from memory and what I know of the language. That said, there may be some things I did that could be considered "bad form" and I apologize for those up front. I did notice a marked similarity to D in a number of cases. I know everyone says C# was based on Java, and you can tell that it has roots there, but it's striking to me some of the syntactic similarities between C# and D. It's more than both being C-family languages, someone from one liked something from another...I'll have to dig more to find out who started what.
+
+Next up, I think I'll branch into Java. Why not, right? I mean, I did just complete C#, it only makes sense to make a minor shift in that direction.
 
 ### COBOL
 
