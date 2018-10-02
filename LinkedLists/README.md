@@ -33,7 +33,7 @@ All-in-all, I'd say my time in the D language was rather enjoyable. I look forwa
 
 
 ### Go
-
+Syntactically similar to C#. Separating classes into their own files.
 
 ### Java
 
