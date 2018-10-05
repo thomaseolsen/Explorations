@@ -1,11 +1,11 @@
 public class llist {
     public static void main(String[] args) {
         intList();
-        StringList();
+        stringList();
     }
 
     static void intList() {
-        List<Integer> linkedList = new List<Integer>();
+        LinkedList<Integer> linkedList = new LinkedList<Integer>();
         Node<Integer> a = new Node<Integer>(2);
         Node<Integer> b = new Node<Integer>(1);
         Node<Integer> c = new Node<Integer>(3);
@@ -30,8 +30,8 @@ public class llist {
         }
     }
 
-    static void StringList() {
-        List<String> linkedList = new List<String>();
+    static void stringList() {
+        LinkedList<String> linkedList = new LinkedList<String>();
         Node<String> a = new Node<String>("Two");
         Node<String> b = new Node<String>("One");
         Node<String> c = new Node<String>("Three");

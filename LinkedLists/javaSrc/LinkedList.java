@@ -1,10 +1,10 @@
-public class LinkedList<T> {
+class LinkedList<T> {
     private int length;
     private Node<T> head;
     private Node<T> tail;
     private Node<T> curr;
 
-    new List() {
+    LinkedList() {
         length = 0;
         head = null;
         tail = null;
@@ -136,7 +136,7 @@ public class LinkedList<T> {
     }
 
     /*  This method returns true if curr = head and false otherwise.  */
-    public bool IsHead() {
+    public Boolean IsHead() {
         if (curr.prev == null)
             return true;
         else
@@ -144,7 +144,7 @@ public class LinkedList<T> {
     }
 
     /*  This method returns true if curr = tail and false otherwise.  */
-    public bool IsTail() {
+    public Boolean IsTail() {
         if (curr.next == null)
             return true;
         else
