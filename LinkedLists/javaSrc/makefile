@@ -5,7 +5,7 @@ ODIR=obj
 JC=javac
 
 helloJava:
-	$(JC) helloJava.java
+	$(JC) llist.java LinkedList.java Node.java
 
 .PHONY: clean
 
