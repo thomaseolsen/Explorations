@@ -1,0 +1,5 @@
+package List
+
+func foo() {
+
+}
