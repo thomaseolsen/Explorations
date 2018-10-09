@@ -33,7 +33,7 @@ All-in-all, I'd say my time in the D language was rather enjoyable. I look forwa
 
 
 ### Go
-
+Go is not as straight forward as the C-family languages I'm so used to. At least, not to this programmer.
 
 ### Java
 Moving into Java from C# was certainly an interesting experiment. For starters, the two are so much more similar than I ever realized. I started the process by copying each class into its own .java file and moved on from there. I made sure the file names matched the class names (simple Java etiquette). After that, it was a minor matter of making the few syntactic changes that were required to make the project work. For instance, "int" became "Integer" when declaring my typed LinkedList and Node classes; "string" became "String" (yes, casing mattered in some of these instances); "bool" became "Boolean"; and the C# "System.Console.WriteLine" became "System.out.println" in Java. Such simple changes, to be sure. While my simple little project here required such few tweaks, I'm sure it's a bit more complicated with a real-world application. Nonetheless, it drives home the oft-talked about reality that C# really did come out of Java in a real and very close way.
